@@ -4,7 +4,7 @@ export default function ImageCard({item, openModal}) {
     <div >
          <img
           src={item.urls.small} 
-          alt="{item.alt_description}" 
+          alt={item.alt_description} 
           onClick={()=>openModal(item)}
           />
     </div>
